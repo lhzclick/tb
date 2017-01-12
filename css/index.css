@@ -1,0 +1,423 @@
+#wrap{
+	width: 16rem;
+	overflow: hidden;
+}
+/*头部固定部分*/
+#header{
+	width: 16rem;
+	height: 1.85rem;
+	background: #fe5400;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+#header p{
+	font: 1rem/1.85rem '微软雅黑';
+	color: #fff;
+	font-weight: bold;
+	padding-left: 0.3rem;
+}
+#header a{
+	width: 13.8rem;
+	height: 1.25rem;
+	background: #b52600 url(../img/search.png) no-repeat 4.2rem 0.2rem;
+	font: 0.6rem/1.25rem '微软雅黑';
+	border-radius: 4px;
+	text-align: center;
+	color: #e8c6bd;
+	position: absolute;
+	left: 1.85rem;
+	top: 0.3rem;
+}
+/*顶部轮播图*/
+#change{
+	width: 16rem;
+	height: 6.85rem;
+	position: relative;
+}
+#change div{
+	width: 16rem;
+	height: 1.85rem;
+}
+#change img{
+	width: 16rem;
+	height: 5rem;
+	display: none;
+}
+#change ul{
+	height: 0.4rem;
+	position: absolute;
+	left:10rem ;
+	top:6rem;
+}
+#change li{
+	float: left;
+	width:0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	margin-left: 0.3rem;
+	background: #fff;
+	opacity: .5;
+}
+/*轮播图下面的天猫图标列表*/
+#list{
+	width: 13.5rem;
+	height: 6.5rem;
+	padding: 0.2em 1.25rem;
+}
+#list ul{
+	display: -webkit-box;
+	-webkit-box-pack: justify;
+}
+#list li{
+	width: 2rem;
+	height: 3rem;
+	padding-top: 0.3rem;
+}
+#list li img{
+	width: 2rem;
+	height: 2rem;
+}
+#list li p{
+	font:0.6rem/1rem "微软雅黑";
+	color: #666666;
+	text-align: center;
+}
+/*天猫图标下面的头条*/
+#listFoot{
+	width: 16rem;
+	height:2rem;
+	border-top: 1px solid #f4f4f4;
+	background:url(../img/listfoot.png) no-repeat 0 0.15rem;
+	position: relative;
+}
+#listFoot p{
+	width: 10rem;
+	height: 1.2rem;
+	letter-spacing: 0.05rem;
+	font: 0.7rem/1.2rem '微软雅黑';
+	color: #838383;
+	border-left: 1px solid #F4F4F4;
+	padding-left: 2.4rem;
+	position: absolute;
+	left: 3.5rem;
+	top: 0.15rem;
+}
+#listFoot h3{
+	width: 1.5rem;
+	font: 0.7rem/0.8rem "微软雅黑";
+	border: 1px solid #ea8188;
+	color: #ea8188;
+	border-radius: 4px;
+	text-align: center;
+	position: absolute;
+	left: 3.9rem;
+	top: 0.3rem;
+}
+#listFoot div{
+	width: 100%;
+	height: 0.5rem;
+	background: #eeeeee;
+	position: absolute;
+	left: 0;
+	top: 1.5rem;
+}
+/*淘抢购部分*/
+#buying{
+	width: 16rem;
+	height: 7.75rem;
+	border-bottom: 1px solid #F4F4F4;
+}
+#buying img{
+	float: left;
+}
+#buying img:nth-of-type(1){
+	width: 6.4rem;
+	height: 7.75rem;
+	border-right: 1px solid #F4F4F4;
+}
+#buying img:nth-of-type(2){
+	width: 9.55rem;
+	height: 3.1rem;
+	border-bottom: 1px solid #F4F4F4;
+}
+#buying img:nth-of-type(3){
+	width: 4.7rem;
+	height: 4.6rem;
+	border-right: 1px solid #F4F4F4;
+}
+#buying img:nth-of-type(4){
+	width: 4.7rem;
+	height: 4.6rem;
+}
+/*淘抢购底部灰块*/
+.bFoot{
+	width: 100%;
+	height: 1.5rem;
+	background: #eeeeee;
+	position: relative;
+}
+.bFoot h3{
+	width: 2rem;
+	font: 0.6rem/0.85rem '微软雅黑';
+	color: #f93b29;
+	padding-left: 0.9rem;
+	background:#eeeeee url(../img/bf.png) no-repeat 0 0;
+	position: absolute;
+	left: 6.6rem;
+	top: 0.3rem;
+}
+.bFoot p{
+	width: 6.1rem;
+	height: 1px;
+	background: #dddddd;
+	position: absolute;
+	top: 0.75rem;
+}
+.bFoot p:nth-of-type(1){
+	left: 0.25rem;
+}
+.bFoot p:nth-of-type(2){
+	right: 0.25rem;
+}
+/*超实惠下面的非常大牌*/
+.bigName ul{
+	height: 10.1rem;
+}
+.bigName li{
+	float: left;
+}
+.bigName li img{
+	width: 3.15rem;
+	height: 5.05rem;
+	border-left: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+}
+.bigName ul li:nth-of-type(1) img,.bigName ul li:nth-of-type(5) img{
+	width: 6.4rem;
+	border-left: 0;
+}
+/*底部灰色块-好品质*/
+.bigFoot h3{
+	background-image: url(../img/q0.png);
+	color: #7f41b4;
+}
+/*好品质下面的全球时尚*/
+#blobal ul{
+	height: 9.2rem;
+}
+#blobal li{
+	float: left;
+}
+#blobal li img{
+	width: 3.15rem;
+	height: 5rem;
+	border-left: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+}
+#blobal ul li:nth-of-type(1) img{
+	width: 9.55rem;
+	height: 4.15rem;
+	border-left: 0;
+}
+#blobal ul li:nth-of-type(2) img{
+	width: 6.4rem;
+	height: 4.15rem;
+}
+#blobal ul li:nth-of-type(3) img{
+	border-left: 0;
+}
+/*底部灰色块-有特色*/
+.fFoot h3{
+	background-image: url(../img/t0.png);
+	color: #e6b118;
+}
+/*全球购下面大图片*/
+#middleImg{
+	width: 100%;
+	height: 3.2rem;
+}
+/*热门市场-部分*/
+#hot{
+	width: 100%;
+	height: 1.3rem;
+	border-bottom: 2px solid #F4F4F4;
+	position: relative;
+}
+#hot h3{
+	width: 2.8rem;
+	font: 0.7rem/0.8rem '微软雅黑';
+	color: #6dc144;
+	background: url(../img/h0.png) no-repeat 0 0;
+	padding-left: 1rem;
+	position: absolute;
+	left: 6.3rem;
+	top: 0.3rem;
+}
+#hot a{
+	font:0.6rem/0.6rem '微软雅黑';
+	position: absolute;
+	right: 0.25rem;
+	top: 0.35rem;
+}
+/*热门市场下面的-品质穿搭*/
+#wear li{
+	float: left;
+	width: 3.95rem;
+	height: 4.6rem;
+	border-right: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+	position: relative;
+}
+#wear li p{
+	font: 0.6rem '微软雅黑';
+	color: #666;
+}
+#wear .p1{
+	font: 0.7rem/1rem '微软雅黑';
+}
+#wear li img{
+	width: 3rem;
+	height: 2.3rem;
+	position: absolute;
+	left: 0.65rem;
+	bottom: 0;
+}
+#wear li div{
+	position: absolute;
+	left:0.65rem ;
+	top: 0.4rem;
+}
+#wear ul li:nth-of-type(1),#wear ul li:nth-of-type(2){
+	width: 7.95rem;
+	height: 6.1rem;
+}
+#wear ul li:nth-of-type(1) img,#wear ul li:nth-of-type(2) img{
+	width: 7.3rem;
+	height: 3.9rem;
+}
+/*底部大图片*/
+#wearImg{
+	width: 100%;
+	height: 3.25rem;
+}
+/*每日好店*/
+#shop{
+	width: 15.75;
+	height: 1.45rem;
+	border-bottom: 2px solid #F4F4F4;
+	border-left: 0.25rem solid #ff9b43;
+	position: relative;
+}
+#shop h3{
+	width: 3rem;
+	font: 0.7rem/1.45rem '微软雅黑';
+	color: #757575;
+	padding-left: 0.35rem;
+}
+#shop a{
+	width: 4.5rem;
+	font: 0.7rem/1.45rem '微软雅黑';
+	color: #757575;
+	position: absolute;
+	right: 1.2rem;
+	top: 0rem;
+}
+#shop p{
+	width: 0.7rem;
+	height: 0.8rem;
+	font:0.7rem/0.8rem '宋体';
+	border-radius: 4px;
+	color: #fff;
+	background: #ff4300;
+	position: absolute;
+	right: 0.35rem;
+	top: 0.35rem;
+	text-align: center;
+}
+/*每日好店下面部分*/
+#day{
+	width: 100%;
+	height: 6.95rem;
+	position: relative;
+}
+#day ul{
+	width: 8rem;
+	float: left;
+}
+#day ul li{
+	width: 2.9rem;
+	height: 2.6rem;
+	float: left;
+}
+#day ul li img{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+#day .li1{
+	width: 5.1rem;
+	height: 5.1rem;
+}
+#day .li1 img{
+	width: 5rem;
+	height: 5rem;
+}
+#day span{
+	display: inline-block;
+	font: 0.7rem/0.9rem '微软雅黑';
+	color: #666;
+	padding-left: 0.4rem;
+	padding-bottom: 0.65rem;
+}
+#day .radius{
+	height: 0.5rem;
+	position: absolute;
+	right: -5rem;
+	bottom: 0.5rem;
+}
+#day .radius li{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #ccc;
+	border-radius: 50%;
+	opacity: .5;
+	float: left;
+	margin-left: 0.5rem;
+}
+/*灰色-猜你喜欢部分*/
+.like h3{
+	background-image: none;
+	width: 2.5rem;
+	padding-left: 0;
+	padding: 0 0.7rem;
+	color: #5f646e;
+}
+/*猜你喜欢-下面列表*/
+#like{
+	width: 100%;
+}
+#like li{
+	float: left;
+	width: 7.8rem;
+	height: 10.7rem;
+	padding: 0 0.1rem 0.2rem 0;
+	border-left: 2px solid #F4F4F4;
+	border-bottom: 2px solid #F4F4F4;
+}
+#like li img{
+	width: 7.9rem;
+	height: 7rem;
+}
+#like li p{
+	width: 7.2rem;
+	font: 0.6rem/0.9rem '宋体';
+	color: #666666;
+	padding:0.35rem 0 0 0.5rem;
+}
+#like li span{
+	font: 0.8rem/0.8rem '宋体';
+	padding:0 0 0.6rem 0.5rem;
+	color: #ff7334;
+	font-weight: bold;
+}
